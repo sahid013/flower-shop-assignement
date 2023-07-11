@@ -47,6 +47,10 @@ body {
     color: rgba(39, 39, 39, 0.60);
 }
 
+.txt-primary {
+    color: #E55473;
+}
+
 .primary-btn {
     padding: 20px 43px;
     border-radius: 8px;
@@ -66,7 +70,7 @@ body {
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 50px;
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.10);width: 100%;
 }
 .hero-left {
     max-width: 708px;
@@ -106,6 +110,7 @@ body {
 .featured-header > p {
     text-align: center;
 }
+
 
 .featured-main > .left-flower {
     display: flex;
@@ -164,13 +169,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 100px;
-    align-items: center;
+    /* align-items: center; */
+    width: 75%;
+    margin-inline: auto;
 
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-left: 120px;
-    margin-right: 120px;
-    padding: 85px 120px
+    padding: 85px 120px;
+  
 
 
 }
@@ -185,3 +191,95 @@ body {
 .our-feature img {
     margin-bottom: 24px;
 }
+
+/* hot deals */
+.hot-deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.hot-deal > .hot-deal-left p {
+    max-width: 594px;
+    margin-bottom: 32px;
+    margin-top:24px;
+
+}
+.hot-deal > .hot-deal-right img {
+    width: 318px;
+    height: 420px;
+
+}
+
+/* Instagram */
+.instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instagram .instagram-header p {
+    max-width: 594px;
+    text-align: center;
+}
+.instagram .instagram-header h1 {
+    max-width: 594px;
+    text-align: center;
+}
+.instagram-header {
+    margin-bottom: 48px;
+}
+
+.instagram-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.instagram-main img {
+    width: 342px;
+    height: 396px;
+}
+/* Get the latest deal */
+.get-latest-deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/getThedealsBackground.png);
+    width:75%;
+    margin-inline: auto;
+    margin-top: 128px;
+    height: 449px;
+}
+
+.instagram-header h1 {
+    text-align: center;
+}
+.instagram-header p {
+    text-align: center;
+}
+
+.instagram-header {
+    margin-bottom: 48px;
+}
+.instagram-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.instagram-body .input-field {
+    padding: 22px 513px 22px 22px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+    border: none;
+}
+
