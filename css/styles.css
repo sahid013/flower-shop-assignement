@@ -1,0 +1,187 @@
+body {
+   font-family: 'Lato', sans-serif; 
+   margin:0px;
+}
+
+/* Common classes */
+.text-80px-800{
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.text-18px-400 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-20px-700 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-40px-800 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.text-24px-700 {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 35px;
+}
+
+.text-24px-600 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+
+    color: rgba(39, 39, 39, 0.80);
+}
+
+.text-grey {
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.primary-btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+
+/* Hero section */
+.hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 97px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.hero-left {
+    max-width: 708px;
+}
+
+.hero-right {
+    width: 635px;
+    height: 800px;
+}
+
+.hero > .hero-left > h1 {
+    margin-bottom: 32px;
+}
+.hero > .hero-left > p {
+    margin-bottom: 32px;
+}
+
+/* Our featured Flowers */
+
+.featured-flower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-header {
+    max-width: 594px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:130px;
+}
+
+
+.featured-header > p {
+    text-align: center;
+}
+
+.featured-main > .left-flower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-main  img {
+    width: 310px;
+    height: 428px;
+  
+}
+.featured-main > .middle-flower > img {
+    width: 370px;
+    height: 370px;
+}
+.featured-main > .right-flower > img {
+    width: 314px;
+    height: 471px;
+}
+
+.flower-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+.flower-img-mid {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-main {
+    display: flex;
+    gap:24px;
+    justify-content: cetner;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.featured-header {
+    margin-bottom: 48px;
+}
+
+/* our feature footer */
+.featured-footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 85px 120px
+
+
+}
+.our-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.our-feature img {
+    margin-bottom: 24px;
+}
