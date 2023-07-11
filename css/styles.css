@@ -245,6 +245,79 @@ body {
     width: 342px;
     height: 396px;
 }
+
+/* What people say about us */
+.latest-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-top: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.post-main > .card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: #111010;
+}
+
+.top-info > .left > img {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+}
+
+.top-info > .left {
+    display: flex;
+
+    align-items: center;
+}
+
+.top-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-info > .right > h6 {
+    color: grey;
+}
+
+.post-img img {
+    width: 377px;
+    height: 243px;
+}
+.bottom > .right {
+    font-size: 20px;
+}
+
+.bottom > .left {
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desciption > p {
+    max-width: 377px;
+}
+.desciption > h3 {
+    text-decoration: none;
+}
+
+.post-header h1 {
+    text-align: center;
+}
+.post-header p {
+    text-align: center;
+}
+
 /* Get the latest deal */
 .get-latest-deal {
     display: flex;
@@ -281,5 +354,30 @@ body {
     background: #FFF;
     margin-right: 16px;
     border: none;
+}
+
+/* Footer */
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #111010;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    margin-top: 128px;
+}
+
+.footer-header h1 {
+    color:white;
+}
+
+.footer-main > p {
+    text-align: center;
+    max-width: 425px;
+    color: white;
+}
+.all-right-reserved {
+    color:grey;
 }
 
